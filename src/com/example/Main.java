@@ -13,8 +13,6 @@ public class Main {
         // statement
         System.out.println("Hello World");
 
-        JFrame frame = createGUI.createJFrame();
-        frame.setVisible(true);
 
     }
 
