@@ -1,8 +1,6 @@
 package com.example;
 
-import com.example.jframe.createGUI;
-
-import javax.swing.*;
+import com.example.datatypes.Assignment1;
 
 //class
 public class Main {
@@ -10,12 +8,13 @@ public class Main {
     //method
     public static void main(String[] args){
 
-        // statement
-        System.out.println("Hello World");
+        /*
+        Commented out hello world output
+         */
+//        System.out.println("Hello World");
 
-        // new JFrame object for GUI
-        JFrame frame = createGUI.createJFrame();
-        frame.setVisible(true);
+        // call calculateTime() Method to be run
+        Assignment1.calculateTime();
 
     }
 
