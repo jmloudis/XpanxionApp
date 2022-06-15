@@ -2,7 +2,7 @@ package com.example.statements;
 
 import java.util.Scanner;
 
-public class Statement1 {
+public class ConditionalStatement {
 
     public static void statementAssignment(){
 
