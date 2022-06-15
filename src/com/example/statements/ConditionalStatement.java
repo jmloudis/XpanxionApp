@@ -6,11 +6,15 @@ public class ConditionalStatement {
 
     public static void statementAssignment(){
 
-        // class - Scanner
-        // type - double
-        // variable - x
-        // method - nextDouble()
-        //type variableName = value;
+        /**
+         * This statementAssignment() method takes three inputs from the user using the Scanner object
+         * x, y, and z are double types that are assigned values from the user input.
+         *
+         * There are if else statements determining whether the numbers are increasing, decreasing or neither.
+         * the order is x -> y -> z
+         *
+         *
+         */
 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter x: ");
@@ -22,12 +26,6 @@ public class ConditionalStatement {
         System.out.print("Enter z: ");
         double z = input.nextDouble();
         System.out.println();
-
-        // x < y and x < z and y < z = output "increasing"
-        // 13.9 > 12.5 = true
-        // && - and
-        // || - or
-        // 13.9 > 5.2 = true
 
         // increasing if statement
         if (z > y && z > x){
