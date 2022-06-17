@@ -5,7 +5,10 @@ import java.util.Scanner;
 public class LoopAssignments {
 
     public static void main(String[] args) {
-        problem2();
+        problem1();
+        //problem2();
+        //problem4();
+
     }
 
     public static void problem1(){
@@ -44,6 +47,33 @@ public class LoopAssignments {
 
         System.out.println();
         System.out.println("The sum of all even numbers between 1 and " + i + " is: " + sum);
+
+
+    }
+
+    public static void problem4(){
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = input.nextInt();
+        int sum = 0;
+        n = Math.abs(n);
+
+        while ( n != 0 ){
+            /*
+            n = 98
+                1. 98 % 10 = 8
+                2. 9 % 10 = 9 -> 8 + 9 = 17
+             */
+            sum = sum + n % 10;
+
+            /*
+                1. 98 / 10 = 9
+                2. 9 / 10 = 0
+             */
+            n = n / 10;
+        }
+        System.out.println(sum);
+
 
 
     }
