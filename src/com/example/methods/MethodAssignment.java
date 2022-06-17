@@ -2,7 +2,7 @@ package com.example.methods;
 
 import java.util.Scanner;
 
-public class Problem1 {
+public class MethodAssignment {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
