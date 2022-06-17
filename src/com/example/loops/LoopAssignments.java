@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LoopAssignments {
 
     public static void main(String[] args) {
-        problem1();
+        problem2();
     }
 
     public static void problem1(){
@@ -26,6 +26,25 @@ public class LoopAssignments {
     }
 
     public static void problem2(){
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter integer n: ");
+        int i = input.nextInt(); // 20
+
+        int sum = 0;
+        int num = 1;
+
+        while (num <= i){
+            // checking if even
+            if (num % 2 == 0){
+                sum = sum + num;
+//                System.out.println(num);
+            }
+            num++;
+        }
+
+        System.out.println();
+        System.out.println("The sum of all even numbers between 1 and " + i + " is: " + sum);
+
 
     }
 
