@@ -46,4 +46,40 @@ public class LoopPractice {
         System.out.println("The sum is: " + sum);
     }
 
+    public static void doWhileLoops(){
+
+        int count = 1;
+        do {
+            System.out.println(count);
+            count++;
+        } while (count <= 10);
+        System.out.println(" ");
+        System.out.println(count);
+        System.out.println("Do - While Loop is over");
+    }
+
+    public static void doWhileLoopScores(){
+        Scanner scan = new Scanner(System.in);
+        int n;
+        int sum = 0;
+        int count = 0;
+        double avg;
+
+        do{
+            System.out.print("Enter a score: ");
+            n = scan.nextInt();
+            if (n >= 0){
+                sum += n;
+                count++;
+            }
+        } while (n >= 0);
+
+        avg = (double) sum / count;
+        System.out.println();
+        System.out.println("Sum of all scores: " + sum);
+        System.out.println("Number of scores: " + count);
+        System.out.println("Average: " + avg);
+    }
+
+
 }

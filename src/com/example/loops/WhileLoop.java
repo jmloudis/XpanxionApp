@@ -2,7 +2,7 @@ package com.example.loops;
 
 import java.util.Scanner;
 
-public class Loop {
+public class WhileLoop {
 
     public static void loopAssignment(){
 
