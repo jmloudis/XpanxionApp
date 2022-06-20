@@ -14,8 +14,10 @@ public class Main {
 
         // call statementAssignment() method from statements package
 //        ConditionalStatement.statementAssignment();
-//        Loop.loopAssignment();
-        Homework6.problem1();
+        Homework6.problem4();
+
+
+
 
     }
 
