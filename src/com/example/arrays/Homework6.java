@@ -9,6 +9,7 @@ public class Homework6 {
         System.out.print("Enter integer n, greater than 0: ");
         int n = scan.nextInt();
 
+
         // If number is less than or equal to 0, ask user to input number greater than 0
         while (n <= 0){
             System.out.print("Enter integer n, greater than 0: ");
@@ -86,13 +87,72 @@ public class Homework6 {
         }
 
 
+    }
+
+    public static void problem3(){
+        int[] arr = {2,3,9,17,32,40,73,40,21,10};
+
+        System.out.println("Before Shifting: ");
+        for (int i = 0; i < arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
 
 
+        int temp = arr[0];
+        for (int i = 1; i < arr.length; i++){
+            arr[i - 1] = arr[i];
+        }
+        arr[arr.length - 1] = temp;
 
 
+        System.out.println();
+        System.out.println();
+        System.out.println("After shifting: ");
+        for ( int i = 0; i < arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
+    }
+
+    public static void problem4(){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter integer n greater than 10: ");
+        int n = scan.nextInt();
+        int temp;
+
+        while (n <= 10){
+            System.out.print("Enter integer n greater than 10: ");
+            n = scan.nextInt();
+        }
+
+        int[] arr = new int[n];
 
 
+        System.out.println("Before swap: ");
+        for (int i = 0; i < arr.length; i++){
+            int m = (int) (Math.random() * (75 - 2)) + 2;
+            arr[i] = m;
+            System.out.print(arr[i] + " ");
+        }
 
+        System.out.println();
+        int sum = arr[2] + arr[5] + arr[7] + arr[9];
+        System.out.println("Sum of elements at indexes 2, 5, 7 and 9 is: " + sum);
+
+        temp = arr[2];
+        arr[2] = arr[6];
+        arr[6] = temp;
+        temp = arr [4];
+        arr[4] = arr[7];
+        arr[7] = temp;
+
+        System.out.println();
+        System.out.println("After swap: ");
+        for(int i = 0; i < arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+        int sum2 = arr[2] + arr[5] + arr[7] + arr[9];
+        System.out.println("Sum of elements at indexes 2, 5, 7 and 9 is: " + sum2);
 
     }
 }
