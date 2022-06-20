@@ -15,6 +15,7 @@ public class ArrayAssignment {
             System.out.print("Please enter a valid number between 1 and 20: ");
             n = input.nextInt();
         }
+
         System.out.println();
 
         int[] arr = new int[n];

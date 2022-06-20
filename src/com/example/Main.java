@@ -2,6 +2,7 @@ package com.example;
 
 import com.example.arrays.ArrayAssignment;
 import com.example.arrays.ArrayPractice;
+import com.example.arrays.Homework6;
 import com.example.loops.*;
 import com.example.statements.ConditionalStatement;
 
@@ -14,7 +15,7 @@ public class Main {
         // call statementAssignment() method from statements package
 //        ConditionalStatement.statementAssignment();
 //        Loop.loopAssignment();
-        ArrayAssignment.quiz4();
+        Homework6.problem1();
 
     }
 
