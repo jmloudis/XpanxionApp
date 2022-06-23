@@ -49,9 +49,11 @@ public class Homework6 {
             // get total sum in array and find average
             // by dividing by array length
             total += arr[i];
-            avg = (double) total / arr.length;
+
 
         }
+
+        avg = (double) total / arr.length;
 
         System.out.println();
         System.out.println();
@@ -97,13 +99,11 @@ public class Homework6 {
             System.out.print(arr[i] + " ");
         }
 
-
         int temp = arr[0];
         for (int i = 1; i < arr.length; i++){
             arr[i - 1] = arr[i];
         }
         arr[arr.length - 1] = temp;
-
 
         System.out.println();
         System.out.println();
@@ -151,8 +151,8 @@ public class Homework6 {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        int sum2 = arr[2] + arr[5] + arr[7] + arr[9];
-        System.out.println("Sum of elements at indexes 2, 5, 7 and 9 is: " + sum2);
+        sum = arr[2] + arr[5] + arr[7] + arr[9];
+        System.out.println("Sum of elements at indexes 2, 5, 7 and 9 is: " + sum);
 
     }
 }
