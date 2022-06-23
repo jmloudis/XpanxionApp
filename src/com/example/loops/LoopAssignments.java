@@ -56,19 +56,19 @@ public class LoopAssignments {
         System.out.print("Enter a number: ");
         int n = input.nextInt();
         int sum = 0;
-        n = Math.abs(n);
+        n = Math.abs(n); // 78
 
         while ( n != 0 ){
-            /*
-            n = 98
-                1. 98 % 10 = 8
-                2. 9 % 10 = 9 -> 8 + 9 = 17
-             */
-            sum = sum + n % 10;
 
-            /*
-                1. 98 / 10 = 9
-                2. 9 / 10 = 0
+            /**
+             * 1. sum = sum + 78 % 10 -> 8
+             * 2. sum = sum + 7 % 10 -> sum + 7 -> 15
+             */
+            sum += n % 10;
+
+            /**
+             * 1. n = 78 / 10 -> 7
+             * 2. n = 7 / 10 -> 0
              */
             n = n / 10;
         }

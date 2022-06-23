@@ -1,10 +1,9 @@
 package com.example;
 
-import com.example.arrays.ArrayAssignment;
-import com.example.arrays.ArrayPractice;
-import com.example.arrays.Homework6;
-import com.example.loops.*;
-import com.example.statements.ConditionalStatement;
+import com.example.homework7.ExtraWorkProblem3;
+import com.example.homework7.ExtraWorkProblem4;
+import com.example.nested_loops.NestedPractice;
+import com.example.nested_loops.Sorting;
 
 //class
 public class Main {
@@ -12,12 +11,8 @@ public class Main {
     //method
     public static void main(String[] args){
 
-        // call statementAssignment() method from statements package
-//        ConditionalStatement.statementAssignment();
-        Homework6.problem4();
 
-
-
+        Sorting.ascendingOrder();
 
     }
 
