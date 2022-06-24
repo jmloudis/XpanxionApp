@@ -144,16 +144,16 @@ public class ExtraWorkProblem1 {
     }
 
 
-    public static void printArray3PerLn(int[] arr8)
+    public static void printArray3PerLn(int[] arr)
     {
-        for (int i = 0; i < arr8.length; i++)
+        for (int i = 0; i < arr.length; i++)
         {
             if ((i+1) % 3 == 0)
             {
-                System.out.println(arr8[i]);
+                System.out.println(arr[i]);
             }
             else{
-                System.out.print(arr8[i] + " ");
+                System.out.print(arr[i] + " ");
             }
         }
     }

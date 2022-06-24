@@ -98,14 +98,18 @@ public class ExtraWorkProblem3 {
                         System.out.print("*");
                     }
 
+
                 }
                 else if (i == j || j == n - i - 1){
+
                     if (i == n / 2 && j == n / 2){
                         System.out.print("@");
                     }
+
                     else {
                         System.out.print("+");
                     }
+
 
                 }
                 else {
@@ -142,6 +146,32 @@ public class ExtraWorkProblem3 {
                 else {
                     System.out.print(".");
                 }
+
+            }
+            System.out.println();
+
+        }
+    }
+
+    public static void boxRight(int n)
+    {
+        for (int i = 1; i <= n; i++)
+        {
+            for (int j = n ; j >= 1; j--)
+            {
+                if (j == 1 || i == 1 || j == n || i == n)
+                {
+                    System.out.print("*");
+                }
+                else if ( i == j )
+                {
+                    System.out.print("+");
+                }
+                else
+                {
+                    System.out.print(" ");
+                }
+
 
             }
             System.out.println();
