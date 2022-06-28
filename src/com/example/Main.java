@@ -1,10 +1,9 @@
 package com.example;
 
-import com.example.homework7.ExtraWorkProblem3;
-import com.example.homework7.ExtraWorkProblem4;
-import com.example.multi_dimensional.MultiDimensionalPractice;
-import com.example.nested_loops.NestedPractice;
-import com.example.nested_loops.Sorting;
+import com.example.oop.practice.Car;
+import com.example.oop.practice.Circle;
+
+import java.util.Scanner;
 
 //class
 public class Main {
@@ -13,9 +12,10 @@ public class Main {
     public static void main(String[] args){
 
 
-        ExtraWorkProblem3.fancySquare(9);
-
     }
+
+
+
 
 
 }

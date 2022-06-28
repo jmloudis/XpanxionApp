@@ -5,7 +5,7 @@ public class Quiz6 {
     public static void main(String[] args)
     {
         int[][] x = {
-                {4,9,5,2},
+                {4,9,5,3},
                 {3,10,1,6},
                 {13,1,2,4}
         };
@@ -16,7 +16,7 @@ public class Quiz6 {
     {
         boolean isEqual = true;
 
-        int[] sum = new int[arr.length];
+        int[] sum = new int[arr.length]; // 0, 1, 2 sum[0] = 20, sum[1] = 20
 
         for (int row = 0; row < arr.length; row++)
         {
@@ -30,10 +30,11 @@ public class Quiz6 {
             System.out.println();
             System.out.println(sum[row]);
 
-            if (sum[row] != sum[0])
+            if (sum[row] != sum[0]) //sum[0] = sum[0] , sum[1] = sum[0] , sum[2] = sum[0]
             {
                 isEqual = false;
             }
+
 
         }
 
