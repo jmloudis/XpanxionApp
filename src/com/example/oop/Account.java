@@ -47,7 +47,6 @@ public class Account {
             System.out.println("Transfer Completed");
         }
 
-
     }
 
     public String accountDetails()
