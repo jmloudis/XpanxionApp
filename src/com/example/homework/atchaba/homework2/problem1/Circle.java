@@ -35,6 +35,7 @@ public class Circle extends Shape {
 
     public String toString()
     {
-        return "Radius: " + this.radius + "\n" + "Area: " + this.getArea() + "\n" + "Filled: " + this.isFilled() + "\n" + "Color: " + this.getColor();
+        return "Radius: " + this.radius + "\n" + "Area: " + this.getArea() + "\n" +
+                super.toString();
     }
 }

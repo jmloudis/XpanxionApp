@@ -1,4 +1,4 @@
-package com.example.oop.homework;
+package com.example.homework.atchaba.homework1;
 
 public class Account {
     private String id;

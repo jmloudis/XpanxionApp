@@ -1,6 +1,4 @@
-package com.example.oop.homework;
-
-import com.example.oop.homework.Account;
+package com.example.homework.atchaba.homework1;
 
 public class AccountTest {
 

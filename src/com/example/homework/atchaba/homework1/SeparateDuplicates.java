@@ -1,4 +1,4 @@
-package com.example.oop;
+package com.example.homework.atchaba.homework1;
 
 import java.beans.Transient;
 
