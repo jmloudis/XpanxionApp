@@ -44,7 +44,6 @@ public class Rectangle extends Shape {
     public String toString()
     {
         return "Width: " + this.width + "\n" + "Length: " + this.length +"\n"
-                + "Area: " + getArea() + "\n" + "Filled: " + isFilled() + "\n"
-                + "Color: " + getColor();
+                + "Area: " + getArea() + "\n" + super.toString();
     }
 }

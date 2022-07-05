@@ -1,7 +1,7 @@
-package com.example.oop;
+package com.example.homework.atchaba.homework1;
 
-import static com.example.oop.Reverse.isExactReverse;
-import static com.example.oop.Reverse.isExactReverseSol2;
+import static com.example.homework.atchaba.homework1.Reverse.isExactReverse;
+import static com.example.homework.atchaba.homework1.Reverse.isExactReverseSol2;
 
 public class ReverseTest {
 
