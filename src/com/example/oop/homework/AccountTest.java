@@ -1,4 +1,6 @@
-package com.example.oop;
+package com.example.oop.homework;
+
+import com.example.oop.homework.Account;
 
 public class AccountTest {
 

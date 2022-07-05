@@ -2,7 +2,9 @@ package com.example.statements;
 
 import java.util.Scanner;
 
+
 public class ConditionalStatement {
+
 
     public static void statementAssignment(){
 
