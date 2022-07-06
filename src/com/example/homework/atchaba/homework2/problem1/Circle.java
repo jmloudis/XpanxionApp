@@ -21,7 +21,7 @@ public class Circle extends Shape {
     public double getArea()
     {
         double p = Math.PI;
-        double a = p * (radius * radius);
+        double a = p * Math.pow(radius, 2);
         return a;
     }
 
