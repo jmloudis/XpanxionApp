@@ -9,7 +9,6 @@ public class Word extends Sentence {
         w = w.replaceAll("[aeiouAEIOU]", "");
         this.noVowelsWord = w;
 
-
     }
 
     public String getNoVowelsWord() {
@@ -18,6 +17,6 @@ public class Word extends Sentence {
 
     public boolean isSubstring()
     {
-        return getSentence().contains(this.noVowelsWord);
+        return getSentence().contains(getNoVowelsWord());
     }
 }

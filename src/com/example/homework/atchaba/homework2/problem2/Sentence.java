@@ -21,6 +21,7 @@ public class Sentence {
 
         Sentence s = (Sentence) obj;
 
+
         if (this.sentence.equals((s.getSentence())))
         {
             return true;
