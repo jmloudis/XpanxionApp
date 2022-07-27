@@ -1,2 +1,2 @@
 # XpanxionFirstApp
-This is a simple java application created during my Internship at Xpanxion. Includes simple hello world app with TitlecaseConverter GUI.
+This is a simple java application created during my Internship at Xpanxion. This includes all examples and assignments that were delievered by Xpanxion.
